@@ -18,6 +18,7 @@ syntax match abpBlockingException "[^\$]*" contained nextgroup=abpBlockingSepara
 
 " Comments
 syntax match abpHeader "\c^\s*\[\s*adblock\s*\(plus\s*\(\d\+\(\.\d\+\)*\s*\)\?\)\?]\s*$"
+syntax match abpHeader "\c^\s*\[\s*auto\s*\(proxy\s*\(\d\+\(\.\d\+\)*\s*\)\?\)\?]\s*$" 
 syntax match abpComment "^\s*!.*" contains=abpCommentKey
 syntax match abpCommentKey "^\s*!\s*[^:]\+:" contained nextgroup=abpCommentValue skipwhite
 syntax match abpCommentValue ".*" contained
