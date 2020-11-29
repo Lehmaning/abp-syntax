@@ -10,6 +10,7 @@
 <string>93af9947-d7f6-437c-9ffb-dd8c27d2ede8</string>
 <key>firstLineMatch</key>
 <string>^(?i:\s*\[\s*(?:adblock\s*(plus\s*(\d+(\.\d+)*\s*)?)?)\]\s*)$</string>
+<string>^(?i:\s*\[\s*(?:auto\s*(proxy\s*(\d+(\.\d+)*\s*)?)?)\]\s*)$</string>
 <key>patterns</key>
 <array>
 <dict>
